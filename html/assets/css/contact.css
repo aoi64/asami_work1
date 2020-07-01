@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+.contents p:nth-child(odd) {
+	font-weight: bold;
+	font-size: 110%;
+}
+.contents p:nth-child(even) {
+	padding: 0 0 10px 10px;
+}
+
+.btn-flat-border {
+	display: inline-block;
+	padding: 0.1em 0.5em;
+	text-decoration: none;
+	color: #000;
+	border: solid 1px #000;
+	background: #fff;
+}
+.btn-flat-border:hover {
+	background: rgba(204,238,255,0.1);
+}
+.form {
+	padding: 30px;
+}
+.form-row {
+	display: flex;
+	text-align: center;
+	padding: 10px 0px;
+	border-bottom: 1ps dotted #ccc;
+}
+.form-btn {
+	padding: 10px 0;
+	text-align: center;
+}
+.form_btn {
+	background: #fff;
+	color: #000;
+	font-weight: bold;
+	padding: 10px 30px;
+}
+.form_btn:hover {
+	background: rgba(204,238,255,0.1);
+	color: fff;
+}
+.form-row label {
+	width: 20%;
+	padding: 10px;
+}
+.form-row *:not(label) {
+	width: 70%;
+	padding: 10px;
+}
+ @media screen and (max-width: 480px) {
+.form-row {
+	display: block;
+}
+}

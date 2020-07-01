@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contents p{
+	line-height: 2em;
+}
+.contents img {
+	margin-top: 20px;
+}
+.contents span {
+	font-weight: bold;
+	font-size: 150%;
+}
+.conceptImage {
+	margin-bottom: 60px;
+}
+ @media screen and (max-width: 480px) {
+.conceptImage {
+	margin-bottom: 30px;
+}
+}

@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+#main h1{
+	margin-bottom:10px;
+}
+.contents {
+	background: none;
+}
+.contents ul li {
+	width: 280px;
+	background: rgba(204,238,255,0.5);
+	border-radius: 5px;
+	padding: 10px;
+	margin: 0 auto 20px auto;
+}
+.name {
+	font-size: 125%;
+}
+.text {
+	font-size: 87.5%;
+}
+.name, .birth {
+	text-align: center;
+}
+.name, .birth, .text {
+	padding-bottom: 10px;
+}
+.contents ul li img {
+	padding-bottom: 10px;
+	border-radius: 5px;
+}
+.contents ul {
+	max-width: 980px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.btn{
+	margin: 0;
+	}
+.btn-flat-border:hover {
+	background: rgba(204,238,255,0.5);
+}
+/*カレント設定*/
+#dog, #cat, #other {
+	color: #1e90ff;
+}
+.links {
+	position: relative;
+	text-decoration: none;
+	color: #000;
+}
+.links::after {
+	position: absolute;
+	bottom: -2px;
+	left: 0;
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: #606060;
+	transform: scale(0, 1);
+	transform-origin: right top;
+	transition: transform .3s;
+}
+.links:hover::after {
+	transform-origin: left top;
+	transform: scale(1, 1);
+}
+ @media screen and (max-width: 480px) {
+.contents h1 {
+	font-size: 150%;
+	line-height: 1em;
+	padding-bottom: 20px;
+}
+}

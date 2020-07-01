@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*スライドショー設定*/
+
+#slideShow {
+	position: relative;
+}
+#slideShow li {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+#slideShow img {
+	max-width: 100%;
+	height: auto;
+}
+/*コンテンツ内p設定*/
+.contents p:nth-child(odd) {
+	font-weight: bold;
+	font-size: 110%;
+}
+.contents p:nth-child(even) {
+	padding-bottom: 10px;
+}

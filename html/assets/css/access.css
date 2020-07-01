@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contents {
+	max-width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.contents span {
+	font-size: 120%;
+	font-weight: bold;
+	line-height: 3em;
+}
+.contents p {
+	max-width: 470px;
+	font-size: 120%;
+	line-height: 2em;
+}
+ @media screen and (max-width: 480px) {
+.contents span, .contents p {
+	line-height: 1.5em;
+	font-size: 100%;
+}
+iframe {
+	max-width: 100%;
+	padding: 10px 0;
+}
+}
