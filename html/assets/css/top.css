@@ -2,7 +2,7 @@
 /* CSS Document */
 
 /*スライドショー設定*/
-
+/* 
 #slideShow {
 	position: relative;
 }
@@ -14,7 +14,7 @@
 #slideShow img {
 	max-width: 100%;
 	height: auto;
-}
+} */
 /*コンテンツ内p設定*/
 .contents p:nth-child(odd) {
 	font-weight: bold;
